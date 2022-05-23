@@ -49,7 +49,27 @@ const account2 = {
   locale: 'en-US',
 };
 
-const accounts = [account1, account2];
+const account3 = {
+  owner: 'Asmaa badr',
+  movements: [5000, 3400, 150, 79000, 321000, 100000, 8500, 30000],
+  interestRate: 1.5,
+  pin: 3333,
+
+  movementsDates: [
+    '2019-11-01T13:15:33.032Z',
+    '2019-11-30T09:48:16.864Z',
+    '2019-12-25T06:04:23.906Z',
+    '2020-01-25T14:18:46.239Z',
+    '2020-02-05T16:33:06.381Z',
+    '2020-04-10T14:43:26.373Z',
+    '2020-06-25T18:49:59.371Z',
+    '2020-07-26T12:01:20.894Z',
+  ],
+  currency: 'USD',
+  locale: 'en-US',
+};
+
+const accounts = [account1, account2, account3];
 
 /////////////////////////////////////////////////
 // Elements
